@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FRUIT WORLD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f9f0;
+      color: #333;
+    }
+    header, section, footer {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hero img {
+      width: 180px;
+      border-radius: 50%;
+      border: 4px solid #32CD32;
+      box-shadow: 0 0 15px rgba(50, 205, 50, 0.3);
+    }
+    h1, h2, h3 {
+      color: #2f4f4f;
+    }
+    p, li {
+      color: #333;
+      line-height: 1.6;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: #d9fdd3;
+      padding: 20px;
+      border-radius: 12px;
+      border-left: 6px solid #32CD32;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: white;
+      background-color: #32CD32;
+    }
+    .btn:hover {
+      background-color: #2e8b57;
+    }
+    .characters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .character {
+      position: relative;
+      width: 280px;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .character img {
+      width: 100%;
+      display: block;
+    }
+    .info {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.8);
+      color: white;
+      padding: 15px;
+      font-size: 0.9em;
+      text-align: left;
+    }
+    .character:hover .info {
+      display: block;
+    }
+    footer {
+      font-size: 14px;
+      background-color: #2f4f4f;
+      color: white;
+    }
+    a {
+      color: #00FFFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <img src="king_pea.jpg" alt="Fruit World Icon">
+    <h1>🍇 Welcome to FRUIT WORLD</h1>
+    <p>
+      The ultimate political showdown between King Pea and Chief Nana.<br>
+      Launching this August — expect drama, rebellion, and juicy secrets!
+    </p>
+    <p><strong>> Fruits fight for freedom. Veggies hold the throne.</strong></p>
+  </header>
+
+  <!-- Why Choose Fruit World -->
+  <section>
+    <h2>Why Join the Revolution?</h2>
+    <div class="card-grid">
+      <div class="card">👑 King Pea's Rule is Unfair</div>
+      <div class="card">🍌 Chief Nana Leads the Rebellion</div>
+      <div class="card">🤫 Secret Force: TFF (The Fruit Force)</div>
+      <div class="card">🕵️‍♂️ Mysterious Character Incoming</div>
+      <div class="card">💥 Political Intrigue & Power Struggles</div>
+      <div class="card">📣 Already Trending on Telegram</div>
+    </div>
+    <div style="margin-top: 30px;">
+      <a class="btn" href="http://t.me/fruitworld1">Join Telegram</a>
+      <a class="btn" href="https://x.com/fruit_world1">Follow on X</a>
+    </div>
+  </section>
+
+  <!-- Character Spotlight -->
+  <section>
+    <h2>🍍 Meet the Key Characters</h2>
+    <div class="characters">
+      <div class="character">
+        <img src="king_pea.jpg" alt="King Pea">
+        <div class="info">
+          <strong>King Pea:</strong><br>
+          King Pea, a vegetable, is currently the king of the world. He controls everything and rules in favor of his clan, the vegetables. He likes to annoy the fruits often and makes them work harder than normal. Will he continue to be in power, or will the fruits take over?
+        </div>
+      </div>
+      <div class="character">
+        <img src="chief_nana.jpg" alt="Chief Nana">
+        <div class="info">
+          <strong>Chief Nana:</strong><br>
+          Chief Nana, a fruit, is tired of being excluded in the political discussions and cannot stand the vegetable supremacy. He recently formed a secret organization to overthrow the king called: TFF (The Fruit Force). Will he be able to gather an army big enough to overthrow King Pea?
+        </div>
+      </div>
+      <div class="character">
+        <img src="new_character.jpg" alt="Mysterious Character">
+        <div class="info">
+          <strong>New Character:</strong><br>
+          👀Already announced in Telegram, will be announced globally soon...
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section style="background-color: #fff3cd;">
+    <h2>🛣️ Roadmap</h2>
+    <div style="max-width: 900px; margin: auto; text-align: left;">
+      <h3>Phase 1 – Kingdom Landscape</h3>
+      <ul>
+        <li>King Pea & Chief Nana introduced</li>
+        <li>Set the political foundation</li>
+      </ul>
+      <h3>Phase 2 – The Fruit Force Rises</h3>
+      <ul>
+        <li>TFF forms under Chief Nana</li>
+        <li>Initial resistance plans unfold</li>
+      </ul>
+      <h3>Phase 3 – Global Character Reveal</h3>
+      <ul>
+        <li>New character from Telegram goes public</li>
+        <li>Community-driven speculation</li>
+      </ul>
+      <h3>Phase 4 – Battle for the Throne</h3>
+      <ul>
+        <li>Fruits vs. Vegetables clash intensifies</li>
+        <li>Power shifts based on engagement</li>
+      </ul>
+      <h3>Phase 5 – New Arcs Unlocked</h3>
+      <ul>
+        <li>New characters & lore expansion</li>
+        <li>Community voting on story progression</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>📣 Telegram: <a href="http://t.me/fruitworld1">t.me/fruitworld1</a></p>
+    <p>🐦 X (Twitter): <a href="https://x.com/fruit_world1">@fruit_world1</a></p>
+    <p style="margin-top: 10px;">© 2025 FRUIT WORLD. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
